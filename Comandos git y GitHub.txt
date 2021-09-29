@@ -1,0 +1,25 @@
+git status
+git log
+git checkout A donde me voy
+git branch rama nueva(nombre)
+git merge rama(en el que me quiero mantener y solo traer los cambios que hice en otra rama)
+git add . (agregar al limbo)
+git commit -m mensaje (Ya pasarlo al otro lado)
+git commit -am mensaje
+
+agregar un origen remoto a GitHub
+
+git remote add origin link
+
+fetch -> traer cosas
+push -> mandar cosas 
+
+git push (a donde) (que cosa mando)
+	PEEEEEEEEERO PRIMERO DEBO HACER UN FETCH (Traer lo que hay en GitHub), para
+	poder hacer luego push
+ 		Para esto es necesario traer tambien la historia que habia
+		en GitHub
+		git pull origin master --allow-unrelated-histories
+		Practicamente, haciendo un merge de lo local y lo que esta
+		en la nube
+
