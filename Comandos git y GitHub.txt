@@ -22,8 +22,17 @@ git push (a donde) (que cosa mando)
 		git pull origin master --allow-unrelated-histories
 		Practicamente, haciendo un merge de lo local y lo que esta
 		en la nube
+que cosa = --tags o rama
 
 git pull (de donde) (a que rama en local) -> para traer cambios que hice en la nube
 
 	
 git remote -v (para ver cual es la url de nuestro repositorio)
+
+ETIQUETAS
+
+git tag
+
+INTERFAZ GRAFICA DE LA HISTORIA DE LOS CAMBIOS Y SU ESTRUCTURA
+gitk
+
